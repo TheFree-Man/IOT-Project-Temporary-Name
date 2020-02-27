@@ -143,8 +143,6 @@ void analogCommand(BridgeClient client) {
     client.println("The Kettle is not Boiled");
     }
 
-  
-
     // Update datastore key with the current pin value
     String key = "A";
     key += pin;
